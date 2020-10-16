@@ -44,7 +44,7 @@ namespace collection
             
             if(arrayList.Count == 0)
             {
-                MessageBox.Show("Empty data");
+                MessageBox.Show("Empty data!");
             }
             else
             {
