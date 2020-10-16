@@ -1,0 +1,46 @@
+﻿<Window x:Class="collection.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:collection"
+        mc:Ignorable="d"
+        Title="BornToDev Collection Part" Height="976.196" Width="588.568">
+    <Grid>
+        <Button x:Name="btnAdd1" Content="Add" HorizontalAlignment="Left" Margin="80,107,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="btnAdd1_Click"/>
+        <Button x:Name="btnRemove1" Content="Remove" HorizontalAlignment="Left" Margin="220,107,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="btnRemove1_Click"/>
+        <Button x:Name="btnShowAll1" Content="Show all" HorizontalAlignment="Left" Margin="360,107,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="btnShowAll1_Click"/>
+        <TextBox x:Name="tbInputData" HorizontalAlignment="Left" Height="30" Margin="140,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340"/>
+        <Label x:Name="label" Content="Value" HorizontalAlignment="Left" Margin="80,58,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAddHash" Content="Add" HorizontalAlignment="Left" Margin="80,313,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="btnAddHash_Click"/>
+        <Button x:Name="btnRemoveHash" Content="Remove" HorizontalAlignment="Left" Margin="220,313,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="btnRemoveHash_Click"/>
+        <Button x:Name="btnShowAllHash" Content="Show all" HorizontalAlignment="Left" Margin="360,313,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="btnShowAllHash_Click"/>
+        <TextBox x:Name="tbInputValue" HorizontalAlignment="Left" Height="30" Margin="140,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340"/>
+        <Label x:Name="labelValue" Content="Value" HorizontalAlignment="Left" Margin="80,264,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbInputKey" HorizontalAlignment="Left" Height="30" Margin="140,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340"/>
+        <Label x:Name="labelKey" Content="Key" HorizontalAlignment="Left" Margin="80,218,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbArrayList" Content="ArrayList" HorizontalAlignment="Left" Margin="258,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbHashTables" Content="HashTables" HorizontalAlignment="Left" Margin="258,169,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAddSortList" Content="Add" HorizontalAlignment="Left" Margin="80,522,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="btnAddSortList_Click"/>
+        <Button x:Name="btnRemoveSortList" Content="Remove" HorizontalAlignment="Left" Margin="220,522,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="btnRemoveSortList_Click"/>
+        <Button x:Name="btnShowAllSortList" Content="Show all" HorizontalAlignment="Left" Margin="360,522,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="btnShowAllSortList_Click"/>
+        <TextBox x:Name="tbInputValueSortList" HorizontalAlignment="Left" Height="30" Margin="140,469,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340"/>
+        <Label x:Name="labelValueSortList" Content="Value" HorizontalAlignment="Left" Margin="80,473,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbInputKeySortList" HorizontalAlignment="Left" Height="30" Margin="140,423,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340"/>
+        <Label x:Name="labelKeySortList" Content="Key" HorizontalAlignment="Left" Margin="80,427,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbSortedList" Content="SortedList" HorizontalAlignment="Left" Margin="258,378,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnPushStack" Content="Push" HorizontalAlignment="Left" Margin="80,690,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="btnPushStack_Click"/>
+        <Button x:Name="btnPopStack" Content="Pop" HorizontalAlignment="Left" Margin="220,690,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="btnPopStack_Click"/>
+        <Button x:Name="btnShowAllStack" Content="Show all" HorizontalAlignment="Left" Margin="360,690,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="btnShowAllStack_Click"/>
+        <TextBox x:Name="tbInputValueStack" HorizontalAlignment="Left" Height="30" Margin="140,637,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340"/>
+        <Label x:Name="labelValueStack" Content="Value" HorizontalAlignment="Left" Margin="80,641,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbStack" Content="Stack" HorizontalAlignment="Left" Margin="258,592,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnEnQueues" Content="Enqueue" HorizontalAlignment="Left" Margin="80,864,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="btnEnQueues_Click"/>
+        <Button x:Name="btnDeQueues" Content="Dequeue" HorizontalAlignment="Left" Margin="220,864,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="btnDeQueues_Click"/>
+        <Button x:Name="btnShowAllQueues" Content="Show all" HorizontalAlignment="Left" Margin="360,864,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="btnShowAllQueues_Click"/>
+        <TextBox x:Name="tbInputValueQueues" HorizontalAlignment="Left" Height="30" Margin="140,811,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340"/>
+        <Label x:Name="labelValueQueues" Content="Value" HorizontalAlignment="Left" Margin="80,815,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbQueues" Content="Queues" HorizontalAlignment="Left" Margin="258,766,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
